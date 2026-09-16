@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://valeryvaldyrev-cyber.github.io/BST/</loc>
+    <xhtml:link rel="alternate" hreflang="et" href="https://valeryvaldyrev-cyber.github.io/BST/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://valeryvaldyrev-cyber.github.io/BST/ru/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://valeryvaldyrev-cyber.github.io/BST/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://valeryvaldyrev-cyber.github.io/BST/"/>
+  </url>
+  <url>
+    <loc>https://valeryvaldyrev-cyber.github.io/BST/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="et" href="https://valeryvaldyrev-cyber.github.io/BST/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://valeryvaldyrev-cyber.github.io/BST/ru/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://valeryvaldyrev-cyber.github.io/BST/en/"/>
+  </url>
+  <url>
+    <loc>https://valeryvaldyrev-cyber.github.io/BST/en/</loc>
+    <xhtml:link rel="alternate" hreflang="et" href="https://valeryvaldyrev-cyber.github.io/BST/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://valeryvaldyrev-cyber.github.io/BST/ru/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://valeryvaldyrev-cyber.github.io/BST/en/"/>
+  </url>
+</urlset>

@@ -1,133 +1,98 @@
-
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="et">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BodySoulTime – Massage Booking</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f6fb;
-      color: #333;
-    }
-    header {
-      background: linear-gradient(135deg, #c8e6fa, #e6e0f8);
-      color: #333;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    header p {
-      font-size: 1.2em;
-      margin-top: 10px;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    .services, .contacts {
-      margin-top: 20px;
-    }
-    .service {
-      background: #fff;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-      margin-bottom: 20px;
-    }
-    .service h3 {
-      margin-top: 0;
-      color: #4a148c;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 15px 30px;
-      background: #4a90e2;
-      color: white;
-      text-decoration: none;
-      font-size: 1.2em;
-      border-radius: 8px;
-      transition: 0.3s;
-    }
-    .btn:hover {
-      background: #357ab7;
-    }
-    .gallery {
-      display: flex;
-      gap: 20px;
-      margin-top: 30px;
-    }
-    .gallery img {
-      width: 48%;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-    footer {
-      background: #eceff1;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-      margin-top: 40px;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Valery Valdyrev — massöör Tallinnas</title>
+  <meta name="description" content="Valery Valdyrevi personaalne massaaž Tallinnas: SMART, Chiromassage ja Aromatic. Vastuvõtt pühapäeviti HINGA ruumides, Linnamäe tee 37a.">
+  <link rel="canonical" href="https://valeryvaldyrev-cyber.github.io/BST/">
+  <link rel="alternate" hreflang="et" href="https://valeryvaldyrev-cyber.github.io/BST/">
+  <link rel="alternate" hreflang="ru" href="https://valeryvaldyrev-cyber.github.io/BST/ru/">
+  <link rel="alternate" hreflang="en" href="https://valeryvaldyrev-cyber.github.io/BST/en/">
+  <link rel="alternate" hreflang="x-default" href="https://valeryvaldyrev-cyber.github.io/BST/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="et_EE">
+  <meta property="og:title" content="Valery Valdyrev — massöör Tallinnas">
+  <meta property="og:description" content="SMART, Chiromassage ja Aromatic pühapäeviti HINGA ruumides Tallinnas.">
+  <meta property="og:url" content="https://valeryvaldyrev-cyber.github.io/BST/">
+  <meta name="theme-color" content="#242321">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&amp;family=Oswald:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/site.js" defer></script>
 </head>
 <body>
-  <header>
-    <h1>BodySoulTime – Massage Booking</h1>
-    <p>Professional massage sessions for body and soul recovery.<br>
-    Relaxation, stress relief, muscle release.</p>
+  <a class="skip-link" href="#main">Liigu põhisisu juurde</a>
+  <header class="site-header">
+    <div class="header-inner shell">
+      <a class="wordmark" href="#top" aria-label="Valery Valdyrev — avaleht">Valery Valdyrev</a>
+      <div class="header-actions">
+        <nav class="language-switcher" aria-label="Keele valik">
+          <a href="./" lang="et" hreflang="et" aria-current="page" data-lang-link>ET</a><span aria-hidden="true">|</span>
+          <a href="ru/" lang="ru" hreflang="ru" data-lang-link>RU</a><span aria-hidden="true">|</span>
+          <a href="en/" lang="en" hreflang="en" data-lang-link>EN</a>
+        </nav>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-open><span class="menu-label">Menüü</span><span class="menu-lines" aria-hidden="true"></span></button>
+      </div>
+    </div>
   </header>
-
-  <section>
-    <h2>Our Services</h2>
-    <div class="services">
-      <div class="service">
-        <h3>Hiromassage</h3>
-        <p>60 min – 40 € | 90 min – 50 €</p>
-        <p>Deep manual technique for muscle release, posture balance, and body harmony.</p>
+  <nav class="mobile-nav" id="mobile-menu" aria-label="Mobiilimenüü" aria-hidden="true" data-mobile-menu>
+    <button class="menu-close" type="button" aria-label="Sulge menüü" data-menu-close>×</button>
+    <ul><li><a href="#prices">Hinnad</a></li><li><a href="#about">Minust</a></li><li><a href="#massage">Massaažid</a></li><li><a href="#faq">KKK</a></li><li><a href="#contacts">Kontakt</a></li></ul>
+  </nav>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-content shell">
+        <p class="hero-kicker">Personaalne massaaž Tallinnas</p>
+        <h1 id="hero-title">Valery Valdyrev</h1>
+        <p class="hero-role">Massöör Tallinnas</p>
+        <p class="hero-services">SMART <span aria-hidden="true">•</span> Chiromassage <span aria-hidden="true">•</span> Aromatic</p>
+        <p class="hero-location">Massaažiseansid pühapäeviti HINGA ruumides<br>Linnamäe tee 37a, Tallinn</p>
+        <a class="button" href="https://calendar.app.google/CyjcsgTK7CeGvZW36" target="_blank" rel="noopener">Broneeri massaaž</a>
       </div>
-      <div class="service">
-        <h3>Sport Massage</h3>
-        <p>60 min – 40 € | 90 min – 50 €</p>
-        <p>Active massage for recovery, circulation boost, and muscle tone.</p>
+      <nav class="desktop-nav" aria-label="Põhinavigatsioon"><ul><li><a href="#prices">Hinnad</a></li><li><a href="#about">Minust</a></li><li><a href="#massage">Massaažid</a></li><li><a href="#faq">KKK</a></li><li><a href="#contacts">Kontakt</a></li></ul></nav>
+    </section>
+    <section class="section" id="prices" aria-labelledby="prices-title">
+      <div class="shell">
+        <p class="section-eyebrow">Teenused ja hinnad</p><h2 id="prices-title">Kolm erinevat massaažikogemust</h2>
+        <p class="intro">Vali massaaži iseloom selle järgi, kas soovid tugevamat tööd, voolavamat puudutust või aromaatset puhkepausi.</p>
+        <div class="price-list">
+          <article class="price-row"><h3 class="service-name">SMART</h3><p class="service-description">Tihedam ja intensiivsem massaaž neile, kellele meeldib tuntav ja tugev töö. Sobib ka füüsiliselt aktiivsele inimesele.</p><p class="service-price">60 min — 40 €<br>90 min — 50 €</p></article>
+          <article class="price-row"><h3 class="service-name">Chiromassage</h3><p class="service-description">Pehmem, plastilisem ja voolavam töö, mille keskmes on lõõgastus, mugavus ja aeg oma kehale. Pehme ei tähenda pindmist.</p><p class="service-price">60 min — 40 €<br>90 min — 50 €</p></article>
+          <article class="price-row"><h3 class="service-name">Aromatic</h3><p class="service-description">Rahulik massaaž aromaatse koostisosaga — meeldiv võimalus aeg maha võtta, ümber lülituda ja nautida sensoorset kogemust.</p><p class="service-price">60 min — 40 €<br>90 min — 50 €</p></article>
+        </div>
+        <p class="section-cta"><a class="button button-dark" href="https://calendar.app.google/CyjcsgTK7CeGvZW36" target="_blank" rel="noopener">Vali sobiv aeg</a></p>
       </div>
-      <div class="service">
-        <h3>Aroma Massage</h3>
-        <p>60 min – 40 € | 90 min – 50 €</p>
-        <p>Relaxing massage with natural oils for stress relief and emotional balance.</p>
+    </section>
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="shell about-grid">
+        <div class="about-copy"><p class="section-eyebrow">Minust</p><h2 id="about-title">Valery Valdyrev</h2><p>Olen personaalne massöör Tallinnas. Olen õppinud Chiromassage’i ja professionaalseid massaaživõtteid ning töötan kolme põhisuunaga: SMART, Chiromassage ja Aromatic.</p><p>Seansi jõu ja iseloomu kohandan individuaalselt. Minu praktikas on nii pikaajalisi püsikliente kui ka inimesi, kes tulevad esimest korda.</p><!-- TODO: Lisa kinnitatud koolitused, kvalifikatsioonid ja praktika algusaasta pärast Valerylt täpsete andmete saamist. --></div>
+        <div class="portrait-placeholder" role="img" aria-label="Ajutine pildiala Valery tulevase portree jaoks"><span>Siia tuleb Valery portree</span></div>
       </div>
-      <div class="service">
-        <h3>Face Massage</h3>
-        <p>Gentle lifting massage for relaxation, skin tone, and fresh look.</p>
+    </section>
+    <section class="section" id="massage" aria-labelledby="massage-title">
+      <div class="shell"><p class="section-eyebrow">Massaažid</p><h2 id="massage-title">Vali sobiv iseloom</h2>
+        <div class="massage-cards"><article class="massage-card"><span class="massage-number">01</span><h3>SMART</h3><p>Kui eelistad tugevamat ja intensiivsemat massaaži.</p></article><article class="massage-card"><span class="massage-number">02</span><h3>Chiromassage</h3><p>Kui soovid plastilist, voolavat ja mugavat seanssi.</p></article><article class="massage-card"><span class="massage-number">03</span><h3>Aromatic</h3><p>Kui soovid ühendada massaaži meeldiva aromaatse kogemusega.</p></article></div>
+        <p class="section-cta"><a class="button button-dark" href="https://calendar.app.google/CyjcsgTK7CeGvZW36" target="_blank" rel="noopener">Broneeri massaaž</a></p>
       </div>
-    </div>
-
-    <a href="https://calendar.app.google/CyjcsgTK7CeGvZW36" target="_blank" class="btn">Book Your Session</a>
-
-    <div class="gallery">
-      <img src="pexels-anntarazevich-6560304.jpg" alt="Massage room">
-      <img src="mediamodifier-W7AyAs7azHc-unsplash.jpg" alt="Massage details">
-    </div>
-  </section>
-
-  <section class="contacts">
-    <h2>Contacts</h2>
-    <p>📞 Phone: 58127879</p>
-    <p>✉️ Email: valery.valdyrev.massage@gmail.com</p>
-    <p>💬 Telegram: <a href="https://t.me/BodySoulTime" target="_blank" rel="noopener">@BodySoulTime</a></p>
-
-  </section>
-
-  <footer>
-    <p>© 2025 BodySoulTime. All rights reserved.</p>
-  </footer>
+    </section>
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="shell"><p class="section-eyebrow">Korduma kippuvad küsimused</p><h2 id="faq-title">Enne esimest külastust</h2><div class="faq-list">
+        <div class="faq-item"><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-et-1" data-faq-button>Kuidas valida SMARTi, Chiromassage’i ja Aromaticu vahel?<span class="faq-icon" aria-hidden="true">+</span></button><div class="faq-answer" id="faq-et-1" hidden><p>Vali SMART, kui eelistad tugevamat tööd; Chiromassage, kui soovid voolavamat massaaži; Aromatic, kui väärtustad rahulikku seanssi koos aromaatse kogemusega. Kui kahtled, saad oma eelistusi enne seanssi kirjeldada.</p></div></div>
+        <div class="faq-item"><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-et-2" data-faq-button>Kas massaaž võib olla tugevam või pehmem?<span class="faq-icon" aria-hidden="true">+</span></button><div class="faq-answer" id="faq-et-2" hidden><p>Jah. Jõu ja töö iseloomu saab seansi jooksul kohandada. Räägi oma eelistustest enne alustamist ja anna seansi ajal tagasisidet.</p></div></div>
+        <div class="faq-item"><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-et-3" data-faq-button>Kus sa töötad?<span class="faq-icon" aria-hidden="true">+</span></button><div class="faq-answer" id="faq-et-3" hidden><p>Võtan vastu HINGA ruumides aadressil Linnamäe tee 37a, Tallinn.</p></div></div>
+        <div class="faq-item"><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-et-4" data-faq-button>Millal saab aega broneerida?<span class="faq-icon" aria-hidden="true">+</span></button><div class="faq-answer" id="faq-et-4" hidden><p>Vastuvõtt toimub peamiselt pühapäeviti. Vabad ajad on näha broneerimiskalendris.</p></div></div>
+        <div class="faq-item"><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-et-5" data-faq-button>Kuidas broneerida?<span class="faq-icon" aria-hidden="true">+</span></button><div class="faq-answer" id="faq-et-5" hidden><p>Kasuta veebilehel olevat broneerimisnuppu ja vali kalendrist sobiv aeg. Küsimuse korral saad ühendust võtta telefoni, e-posti või Telegrami kaudu.</p></div></div>
+      </div></div>
+    </section>
+    <section class="section" id="contacts" aria-labelledby="contacts-title">
+      <div class="shell location-grid"><div><p class="section-eyebrow">Kontakt</p><h2 id="contacts-title">Kohtume HINGA ruumides</h2><p class="intro">Massaažiseansid toimuvad peamiselt pühapäeviti. Vali sobiv aeg kalendrist või kirjuta, kui sul on enne broneerimist küsimus.</p></div>
+        <div class="location-card"><h3>Valery Valdyrev</h3><address>HINGA<br>Linnamäe tee 37a<br>Tallinn</address><ul class="contact-list"><li><span class="contact-label">Telefon</span><a href="tel:+37258127879">58127879</a></li><li><span class="contact-label">E-post</span><a href="mailto:valery.valdyrev.massage@gmail.com">valery.valdyrev.massage@gmail.com</a></li><li><span class="contact-label">Telegram</span><a href="https://t.me/BodySoulTime" target="_blank" rel="noopener">@BodySoulTime</a></li></ul><!-- TODO: Lisa kinnitatud Instagrami, Facebooki ja Stebby URL-id. --><p class="todo-links">Instagram · Facebook · Stebby — lingid lisatakse pärast kinnitamist.</p></div>
+      </div>
+    </section>
+    <section class="section closing" aria-labelledby="closing-title"><div class="shell"><h2 id="closing-title">Broneeri pühapäevane massaaž</h2><p>HINGA · Linnamäe tee 37a · Tallinn</p><a class="button" href="https://calendar.app.google/CyjcsgTK7CeGvZW36" target="_blank" rel="noopener">Broneeri massaaž</a></div></section>
+  </main>
+  <footer class="site-footer"><div class="footer-inner shell"><p>© <span data-year>2026</span> Valery Valdyrev</p><p>Personaalne massaaž Tallinnas</p></div></footer>
 </body>
 </html>

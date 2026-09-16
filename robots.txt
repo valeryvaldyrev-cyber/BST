@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://valeryvaldyrev-cyber.github.io/BST/sitemap.xml
