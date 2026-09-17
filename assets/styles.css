@@ -158,6 +158,7 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 2;
   border-top: 1px solid rgba(255,255,255,.24);
   min-height: 6.6rem;
   display: flex;
@@ -260,6 +261,7 @@ a {
 .hero::before {
   position: absolute;
   inset: 0;
+  pointer-events: none;
   background:
     linear-gradient(rgba(20,19,17,.75), rgba(20,19,17,.75)),
     url("../pexels-anntarazevich-6560304.jpg") 68% 42% / cover no-repeat;
@@ -269,6 +271,7 @@ a {
 .hero::after {
   position: absolute;
   inset: 0;
+  pointer-events: none;
   background: linear-gradient(180deg, rgba(0,0,0,.1), transparent 30%, rgba(0,0,0,.18));
   content: "";
 }
