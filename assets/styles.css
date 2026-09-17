@@ -39,6 +39,22 @@ a {
   color: inherit;
 }
 
+.location-link {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity .2s ease;
+}
+
+.location-link:hover {
+  opacity: .72;
+}
+
+.location-link:focus-visible {
+  outline: 1px solid currentColor;
+  outline-offset: 3px;
+  opacity: .82;
+}
+
 img {
   display: block;
   max-width: 100%;
