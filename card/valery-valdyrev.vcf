@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Valdyrev;Valery;;;
+FN:Valery Valdyrev
+TITLE:Massage therapist in Tallinn
+ORG:HINGA
+TEL;TYPE=CELL,VOICE;PREF=1:+37258127879
+TEL;TYPE=CELL,VOICE;PREF=2:+37256806341
+ADR;TYPE=WORK:;;Linnamäe tee 37a;Tallinn;;;Estonia
+URL:https://valeryvaldyrev-cyber.github.io/BST/
+URL:https://calendar.app.google/DD5P1f2JTCo2FeZb6
+IMPP;X-SERVICE-TYPE=Telegram:https://t.me/ValeryValdyrevMassage
+X-SOCIALPROFILE;TYPE=telegram:https://t.me/ValeryValdyrevMassage
+NOTE:Massage appointments on Sundays. SMART, Chiromassage, Aromatic. Telegram: https://t.me/ValeryValdyrevMassage
+END:VCARD
