@@ -12,11 +12,13 @@
     <xhtml:link rel="alternate" hreflang="et" href="https://valeryvaldyrev-cyber.github.io/BST/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://valeryvaldyrev-cyber.github.io/BST/ru/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://valeryvaldyrev-cyber.github.io/BST/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://valeryvaldyrev-cyber.github.io/BST/"/>
   </url>
   <url>
     <loc>https://valeryvaldyrev-cyber.github.io/BST/en/</loc>
     <xhtml:link rel="alternate" hreflang="et" href="https://valeryvaldyrev-cyber.github.io/BST/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://valeryvaldyrev-cyber.github.io/BST/ru/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://valeryvaldyrev-cyber.github.io/BST/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://valeryvaldyrev-cyber.github.io/BST/"/>
   </url>
 </urlset>
